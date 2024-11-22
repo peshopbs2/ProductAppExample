@@ -1,0 +1,31 @@
+#products
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.product
+{
+    width: 30%;
+    border: 1px solid black;
+    background: #ccc;
+    padding: 10px;
+    margin: 10px;
+}
+
+.hide
+{
+    display: none
+}
+
+.form-control {
+    display: flex;
+    justify-content: left;
+    margin: 10px;
+}
+
+.form-control label
+{
+    width: 25%;
+}
